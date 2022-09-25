@@ -6,11 +6,13 @@ def get_rating(reviews):
     if reviews: #[3,4,5,1,4,5]
         rating = sum(reviews) // len(reviews)
     return '*'*rating    
-#
+#opening the menu file
 with open('menu.json', 'r') as f:
     data=json.load(f)
 
 items = data.get('items',[])
+#keepeing the program inside a while loop
+#set of instructions where the user can choose what to do
 while True:
     print('-'*50)
     print('Pamoja Restaurant')
@@ -22,7 +24,7 @@ while True:
     print('5. Exit')
     print('-'*50)
     choice= int(input())
-
+#Implementing each choice 
     if choice == 1:
         print('-'*50)
         print('id\tname\t\tprice\tRating')
