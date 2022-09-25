@@ -1,11 +1,12 @@
+#importing necessary libraries
 import json
-
+#defining the function
 def get_rating(reviews):
     rating = 5
     if reviews: #[3,4,5,1,4,5]
         rating = sum(reviews) // len(reviews)
     return '*'*rating    
-
+#
 with open('menu.json', 'r') as f:
     data=json.load(f)
 
