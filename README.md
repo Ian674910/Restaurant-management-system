@@ -7,7 +7,7 @@ Majority of hotels nowadays are managed by paper worked manually which is time c
 The Restaurant management system will enable customers to order meals electronically and digitally which will save manpower and time of staff in the restaurant. It saves time, staff and paper. 
 
 MAIN OBJECTIVE 
-The main objective of this system is to make the ordering services in a restaurant effective and digital. Customers will not have to call a waiter to order their desired meals. 
+The main objective of this system is to make the ordering services in a restaurant effective and digital. Customers will not have to call a waiter to order their desired meals.
 
 SPECIFIC OBJECTIVES 
 •	To provide efficient kitchen display at one place • 	Build automatic billing in the restaurant 
